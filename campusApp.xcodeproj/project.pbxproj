@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E485452E4F5492E72FB2C44 /* Pods_campusApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32614ECA48209D593CF4B365 /* Pods_campusApp.framework */; };
 		F884DCB92820709A00365A13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F884DCB82820709A00365A13 /* AppDelegate.swift */; };
 		F884DCBB2820709A00365A13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F884DCBA2820709A00365A13 /* SceneDelegate.swift */; };
 		F884DCBD2820709A00365A13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F884DCBC2820709A00365A13 /* ViewController.swift */; };
 		F884DCC02820709A00365A13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F884DCBE2820709A00365A13 /* Main.storyboard */; };
 		F884DCC22820709D00365A13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F884DCC12820709D00365A13 /* Assets.xcassets */; };
 		F884DCC52820709D00365A13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F884DCC32820709D00365A13 /* LaunchScreen.storyboard */; };
+		F89113722820788400C77BD2 /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89113712820788400C77BD2 /* TimetableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32614ECA48209D593CF4B365 /* Pods_campusApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_campusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4DC9979C6FEB46BCBBF77C /* Pods-campusApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-campusApp.debug.xcconfig"; path = "Target Support Files/Pods-campusApp/Pods-campusApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BF69F0D83B2BEE4375F0DA96 /* Pods-campusApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-campusApp.release.xcconfig"; path = "Target Support Files/Pods-campusApp/Pods-campusApp.release.xcconfig"; sourceTree = "<group>"; };
 		F884DCB52820709A00365A13 /* campusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = campusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F884DCB82820709A00365A13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F884DCBA2820709A00365A13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		F884DCC12820709D00365A13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F884DCC42820709D00365A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F884DCC62820709D00365A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89113712820788400C77BD2 /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E485452E4F5492E72FB2C44 /* Pods_campusApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		111816C3B3DF5B7AD0F70B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32614ECA48209D593CF4B365 /* Pods_campusApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D6CB988D27CB6336A576262 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC4DC9979C6FEB46BCBBF77C /* Pods-campusApp.debug.xcconfig */,
+				BF69F0D83B2BEE4375F0DA96 /* Pods-campusApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F884DCAC2820709A00365A13 = {
 			isa = PBXGroup;
 			children = (
 				F884DCB72820709A00365A13 /* campusApp */,
 				F884DCB62820709A00365A13 /* Products */,
+				7D6CB988D27CB6336A576262 /* Pods */,
+				111816C3B3DF5B7AD0F70B3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +89,7 @@
 				F884DCC12820709D00365A13 /* Assets.xcassets */,
 				F884DCC32820709D00365A13 /* LaunchScreen.storyboard */,
 				F884DCC62820709D00365A13 /* Info.plist */,
+				F89113712820788400C77BD2 /* TimetableViewController.swift */,
 			);
 			path = campusApp;
 			sourceTree = "<group>";
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F884DCC92820709D00365A13 /* Build configuration list for PBXNativeTarget "campusApp" */;
 			buildPhases = (
+				DF1DE832C6F2733E8B3B93C8 /* [CP] Check Pods Manifest.lock */,
 				F884DCB12820709A00365A13 /* Sources */,
 				F884DCB22820709A00365A13 /* Frameworks */,
 				F884DCB32820709A00365A13 /* Resources */,
+				2E81D52D727DFDEAD8C52346 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E81D52D727DFDEAD8C52346 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-campusApp/Pods-campusApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-campusApp/Pods-campusApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-campusApp/Pods-campusApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1DE832C6F2733E8B3B93C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-campusApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F884DCB12820709A00365A13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +211,7 @@
 			files = (
 				F884DCBD2820709A00365A13 /* ViewController.swift in Sources */,
 				F884DCB92820709A00365A13 /* AppDelegate.swift in Sources */,
+				F89113722820788400C77BD2 /* TimetableViewController.swift in Sources */,
 				F884DCBB2820709A00365A13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +354,7 @@
 		};
 		F884DCCA2820709D00365A13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4DC9979C6FEB46BCBBF77C /* Pods-campusApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +383,7 @@
 		};
 		F884DCCB2820709D00365A13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF69F0D83B2BEE4375F0DA96 /* Pods-campusApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078A3BBD6F7681F18456B4105B21D174 /* ElliotableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6436D44923859E230D1A6433E64BE28E /* ElliotableController.swift */; };
+		220F67D85C6E5B84614168D36C74AB2C /* ElliotDayOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862F21955DFAB7318865D235C67566F /* ElliotDayOption.swift */; };
+		29B9FD005D241A4ED7511CC77F2526A6 /* Elliotable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F82614CA5263BAFADEC10A5E7E915D64 /* Elliotable-dummy.m */; };
+		2B8598F2F9E872F28604B7ECD539038E /* Elliotable.h in Headers */ = {isa = PBXBuildFile; fileRef = 747A309E74FC48C55063E77E15B4F204 /* Elliotable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FC1971D38B5C0DC13F662B8EE5CE646 /* ElliotableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF802B8405CF32E3536766EB5EA332 /* ElliotableCell.swift */; };
+		4796BDAC25131E2306BB61C0B44F872F /* ElliottEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE102343D50577DE7D7130504D4D56 /* ElliottEvent.swift */; };
+		5704302C1F5B122B7E21214C56A1C214 /* ElliotableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B6ABBDD6F9688FE4329F25BD2DDDE /* ElliotableError.swift */; };
+		630BF57571589AEC09F14D7F81EBA207 /* Elliotable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A64A882CDB31273F1E4CB7E4F51F7E8B /* Elliotable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F526365A34F33B5EA45ECBF3005F1E9 /* Pods-campusApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE61FF4DE6CAA7B5C622CE128D5800A9 /* Pods-campusApp-dummy.m */; };
+		71C6C231B80F1C36269AC94C7A052438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7EC78A1A8C72BD380E4C0D825211272C /* Elliotable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3837B362617EEA2585EA92053CD4A /* Elliotable.swift */; };
+		BF98D31C6797E437919EE9FB6F26C874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E8D673B7AEEF215BDEA2719544E96003 /* Pods-campusApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 274A7FF3D7FB6EA5A49320902728FA4B /* Pods-campusApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD20A8FF3FA23449DB6DCFFAB272B83A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F8C790F7E320CE33CA955EFF6361580;
+			remoteInfo = Elliotable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025B8DBDCF3186F59FD4D8CDAE06F8D0 /* Pods-campusApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-campusApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		274A7FF3D7FB6EA5A49320902728FA4B /* Pods-campusApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-campusApp-umbrella.h"; sourceTree = "<group>"; };
+		2CE3837B362617EEA2585EA92053CD4A /* Elliotable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Elliotable.swift; path = Elliotable/Elliotable.swift; sourceTree = "<group>"; };
+		34E254EC9F637B71D61E0FD3340CA9DF /* Pods-campusApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-campusApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3E03B323D16D8F54AE272F2D19A808F5 /* Pods-campusApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-campusApp.release.xcconfig"; sourceTree = "<group>"; };
+		498B6ABBDD6F9688FE4329F25BD2DDDE /* ElliotableError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElliotableError.swift; path = Elliotable/ElliotableError.swift; sourceTree = "<group>"; };
+		6436D44923859E230D1A6433E64BE28E /* ElliotableController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElliotableController.swift; path = Elliotable/ElliotableController.swift; sourceTree = "<group>"; };
+		7275F1EE530BA90597982EC0D66CBA1A /* Pods-campusApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-campusApp-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		747A309E74FC48C55063E77E15B4F204 /* Elliotable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Elliotable.h; path = Elliotable/Elliotable.h; sourceTree = "<group>"; };
+		7C103D2F539C99092644320A0CC20386 /* Elliotable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Elliotable; path = Elliotable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABE102343D50577DE7D7130504D4D56 /* ElliottEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElliottEvent.swift; path = Elliotable/ElliottEvent.swift; sourceTree = "<group>"; };
+		8FCE8BB96B24D21D6A387FA7CCA0849C /* Pods-campusApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-campusApp.modulemap"; sourceTree = "<group>"; };
+		9C692BEB7EFBBBD40B58C5F82924BDC4 /* Pods-campusApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-campusApp"; path = Pods_campusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24E2E325F0880A71CEFAF454A9F08C8 /* Elliotable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Elliotable-prefix.pch"; sourceTree = "<group>"; };
+		A64A882CDB31273F1E4CB7E4F51F7E8B /* Elliotable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Elliotable-umbrella.h"; sourceTree = "<group>"; };
+		B862F21955DFAB7318865D235C67566F /* ElliotDayOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElliotDayOption.swift; path = Elliotable/ElliotDayOption.swift; sourceTree = "<group>"; };
+		BC530DE14064CDE691876D096C0AEBE3 /* Elliotable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Elliotable.debug.xcconfig; sourceTree = "<group>"; };
+		C5D2312D7EA352905DE7B3FB01AF1B40 /* Elliotable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Elliotable.modulemap; sourceTree = "<group>"; };
+		CE61FF4DE6CAA7B5C622CE128D5800A9 /* Pods-campusApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-campusApp-dummy.m"; sourceTree = "<group>"; };
+		D7F15650AB142E07BEA67C140F8E76B2 /* Pods-campusApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-campusApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA0C9E7DC2580FDB626EFE186A395613 /* Pods-campusApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-campusApp-frameworks.sh"; sourceTree = "<group>"; };
+		DFA0D2E6952F1FEBA20EB15A6363725E /* Elliotable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Elliotable.release.xcconfig; sourceTree = "<group>"; };
+		E2A04BE062F2601CC4C61496F4A7E8C2 /* Elliotable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Elliotable-Info.plist"; sourceTree = "<group>"; };
+		EABF802B8405CF32E3536766EB5EA332 /* ElliotableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElliotableCell.swift; path = Elliotable/ElliotableCell.swift; sourceTree = "<group>"; };
+		F82614CA5263BAFADEC10A5E7E915D64 /* Elliotable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Elliotable-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63067AAC8CA82FE08FDD0193039457FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C6C231B80F1C36269AC94C7A052438 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA01CB994BABFA05755E555663981140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF98D31C6797E437919EE9FB6F26C874 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EEC2D888686ED2B880F576B67527C9 /* Elliotable */ = {
+			isa = PBXGroup;
+			children = (
+				747A309E74FC48C55063E77E15B4F204 /* Elliotable.h */,
+				2CE3837B362617EEA2585EA92053CD4A /* Elliotable.swift */,
+				EABF802B8405CF32E3536766EB5EA332 /* ElliotableCell.swift */,
+				6436D44923859E230D1A6433E64BE28E /* ElliotableController.swift */,
+				498B6ABBDD6F9688FE4329F25BD2DDDE /* ElliotableError.swift */,
+				B862F21955DFAB7318865D235C67566F /* ElliotDayOption.swift */,
+				8ABE102343D50577DE7D7130504D4D56 /* ElliottEvent.swift */,
+				3729B8DD8C5835F86728460721A01A9A /* Support Files */,
+			);
+			name = Elliotable;
+			path = Elliotable;
+			sourceTree = "<group>";
+		};
+		3729B8DD8C5835F86728460721A01A9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D2312D7EA352905DE7B3FB01AF1B40 /* Elliotable.modulemap */,
+				F82614CA5263BAFADEC10A5E7E915D64 /* Elliotable-dummy.m */,
+				E2A04BE062F2601CC4C61496F4A7E8C2 /* Elliotable-Info.plist */,
+				A24E2E325F0880A71CEFAF454A9F08C8 /* Elliotable-prefix.pch */,
+				A64A882CDB31273F1E4CB7E4F51F7E8B /* Elliotable-umbrella.h */,
+				BC530DE14064CDE691876D096C0AEBE3 /* Elliotable.debug.xcconfig */,
+				DFA0D2E6952F1FEBA20EB15A6363725E /* Elliotable.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Elliotable";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E92622E954C9E917FCF8D527257F8F4 /* Pods-campusApp */ = {
+			isa = PBXGroup;
+			children = (
+				8FCE8BB96B24D21D6A387FA7CCA0849C /* Pods-campusApp.modulemap */,
+				D7F15650AB142E07BEA67C140F8E76B2 /* Pods-campusApp-acknowledgements.markdown */,
+				025B8DBDCF3186F59FD4D8CDAE06F8D0 /* Pods-campusApp-acknowledgements.plist */,
+				CE61FF4DE6CAA7B5C622CE128D5800A9 /* Pods-campusApp-dummy.m */,
+				DA0C9E7DC2580FDB626EFE186A395613 /* Pods-campusApp-frameworks.sh */,
+				7275F1EE530BA90597982EC0D66CBA1A /* Pods-campusApp-Info.plist */,
+				274A7FF3D7FB6EA5A49320902728FA4B /* Pods-campusApp-umbrella.h */,
+				34E254EC9F637B71D61E0FD3340CA9DF /* Pods-campusApp.debug.xcconfig */,
+				3E03B323D16D8F54AE272F2D19A808F5 /* Pods-campusApp.release.xcconfig */,
+			);
+			name = "Pods-campusApp";
+			path = "Target Support Files/Pods-campusApp";
+			sourceTree = "<group>";
+		};
+		8B92A2DE4068C1FDA4F07F1F46BABEA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20EEC2D888686ED2B880F576B67527C9 /* Elliotable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8B92A2DE4068C1FDA4F07F1F46BABEA7 /* Pods */,
+				E53405030411B9A8DA1DBF11134006EF /* Products */,
+				F4402DC11FC9A15A0BB3ABB56B7FF60B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E53405030411B9A8DA1DBF11134006EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C103D2F539C99092644320A0CC20386 /* Elliotable */,
+				9C692BEB7EFBBBD40B58C5F82924BDC4 /* Pods-campusApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4402DC11FC9A15A0BB3ABB56B7FF60B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E92622E954C9E917FCF8D527257F8F4 /* Pods-campusApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17DD71242C063DC5406270E3F3017F37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D673B7AEEF215BDEA2719544E96003 /* Pods-campusApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3520EECF56895B78FD1F1572F50A411A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8598F2F9E872F28604B7ECD539038E /* Elliotable.h in Headers */,
+				630BF57571589AEC09F14D7F81EBA207 /* Elliotable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F8C790F7E320CE33CA955EFF6361580 /* Elliotable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BAFE4A67181CFB23A2D2EA2CE7C3C7E /* Build configuration list for PBXNativeTarget "Elliotable" */;
+			buildPhases = (
+				3520EECF56895B78FD1F1572F50A411A /* Headers */,
+				709EE35A99255BD640BA92C3B49D0466 /* Sources */,
+				CA01CB994BABFA05755E555663981140 /* Frameworks */,
+				8166EBA35239751BFB51F869861445F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elliotable;
+			productName = Elliotable;
+			productReference = 7C103D2F539C99092644320A0CC20386 /* Elliotable */;
+			productType = "com.apple.product-type.framework";
+		};
+		B63682521F5491285216B70D47123780 /* Pods-campusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906F4E3B294F556D77015BB8CCC29E44 /* Build configuration list for PBXNativeTarget "Pods-campusApp" */;
+			buildPhases = (
+				17DD71242C063DC5406270E3F3017F37 /* Headers */,
+				0CCFA3440BB52B39BE11A1416BA1ACF4 /* Sources */,
+				63067AAC8CA82FE08FDD0193039457FF /* Frameworks */,
+				014882EF6FF716B7F13A2B88B6E3DFD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5009C1DAED5A3484AD01468B6EB7B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-campusApp";
+			productName = Pods_campusApp;
+			productReference = 9C692BEB7EFBBBD40B58C5F82924BDC4 /* Pods-campusApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E53405030411B9A8DA1DBF11134006EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F8C790F7E320CE33CA955EFF6361580 /* Elliotable */,
+				B63682521F5491285216B70D47123780 /* Pods-campusApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014882EF6FF716B7F13A2B88B6E3DFD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8166EBA35239751BFB51F869861445F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CCFA3440BB52B39BE11A1416BA1ACF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F526365A34F33B5EA45ECBF3005F1E9 /* Pods-campusApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709EE35A99255BD640BA92C3B49D0466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC78A1A8C72BD380E4C0D825211272C /* Elliotable.swift in Sources */,
+				29B9FD005D241A4ED7511CC77F2526A6 /* Elliotable-dummy.m in Sources */,
+				2FC1971D38B5C0DC13F662B8EE5CE646 /* ElliotableCell.swift in Sources */,
+				078A3BBD6F7681F18456B4105B21D174 /* ElliotableController.swift in Sources */,
+				5704302C1F5B122B7E21214C56A1C214 /* ElliotableError.swift in Sources */,
+				220F67D85C6E5B84614168D36C74AB2C /* ElliotDayOption.swift in Sources */,
+				4796BDAC25131E2306BB61C0B44F872F /* ElliottEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC5009C1DAED5A3484AD01468B6EB7B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Elliotable;
+			target = 0F8C790F7E320CE33CA955EFF6361580 /* Elliotable */;
+			targetProxy = BD20A8FF3FA23449DB6DCFFAB272B83A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5479BCBC5891F8F5AE6267D3D1F3DEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E03B323D16D8F54AE272F2D19A808F5 /* Pods-campusApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-campusApp/Pods-campusApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-campusApp/Pods-campusApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61E31EB4A2D42EAD8E6BC6FB59FE6E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E254EC9F637B71D61E0FD3340CA9DF /* Pods-campusApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-campusApp/Pods-campusApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-campusApp/Pods-campusApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CA821F0805976EA57D93560F6B478E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC530DE14064CDE691876D096C0AEBE3 /* Elliotable.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Elliotable/Elliotable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Elliotable/Elliotable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Elliotable/Elliotable.modulemap";
+				PRODUCT_MODULE_NAME = Elliotable;
+				PRODUCT_NAME = Elliotable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D110B05C345B471DF831DCED185937A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA0D2E6952F1FEBA20EB15A6363725E /* Elliotable.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Elliotable/Elliotable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Elliotable/Elliotable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Elliotable/Elliotable.modulemap";
+				PRODUCT_MODULE_NAME = Elliotable;
+				PRODUCT_NAME = Elliotable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BAFE4A67181CFB23A2D2EA2CE7C3C7E /* Build configuration list for PBXNativeTarget "Elliotable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA821F0805976EA57D93560F6B478E4 /* Debug */,
+				D110B05C345B471DF831DCED185937A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934ED2B84836A780113D1F63484628B2 /* Debug */,
+				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906F4E3B294F556D77015BB8CCC29E44 /* Build configuration list for PBXNativeTarget "Pods-campusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E31EB4A2D42EAD8E6BC6FB59FE6E87 /* Debug */,
+				5479BCBC5891F8F5AE6267D3D1F3DEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
