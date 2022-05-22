@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -46,8 +46,8 @@
 		7C103D2F539C99092644320A0CC20386 /* Elliotable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Elliotable; path = Elliotable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABE102343D50577DE7D7130504D4D56 /* ElliottEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElliottEvent.swift; path = Elliotable/ElliottEvent.swift; sourceTree = "<group>"; };
 		8FCE8BB96B24D21D6A387FA7CCA0849C /* Pods-campusApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-campusApp.modulemap"; sourceTree = "<group>"; };
-		9C692BEB7EFBBBD40B58C5F82924BDC4 /* Pods-campusApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-campusApp"; path = Pods_campusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C692BEB7EFBBBD40B58C5F82924BDC4 /* Pods_campusApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_campusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A24E2E325F0880A71CEFAF454A9F08C8 /* Elliotable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Elliotable-prefix.pch"; sourceTree = "<group>"; };
 		A64A882CDB31273F1E4CB7E4F51F7E8B /* Elliotable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Elliotable-umbrella.h"; sourceTree = "<group>"; };
 		B862F21955DFAB7318865D235C67566F /* ElliotDayOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElliotDayOption.swift; path = Elliotable/ElliotDayOption.swift; sourceTree = "<group>"; };
@@ -94,7 +94,6 @@
 				8ABE102343D50577DE7D7130504D4D56 /* ElliottEvent.swift */,
 				3729B8DD8C5835F86728460721A01A9A /* Support Files */,
 			);
-			name = Elliotable;
 			path = Elliotable;
 			sourceTree = "<group>";
 		};
@@ -169,7 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				7C103D2F539C99092644320A0CC20386 /* Elliotable */,
-				9C692BEB7EFBBBD40B58C5F82924BDC4 /* Pods-campusApp */,
+				9C692BEB7EFBBBD40B58C5F82924BDC4 /* Pods_campusApp.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,7 +238,7 @@
 			);
 			name = "Pods-campusApp";
 			productName = Pods_campusApp;
-			productReference = 9C692BEB7EFBBBD40B58C5F82924BDC4 /* Pods-campusApp */;
+			productReference = 9C692BEB7EFBBBD40B58C5F82924BDC4 /* Pods_campusApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,7 +251,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -338,7 +337,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-campusApp/Pods-campusApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,7 +375,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-campusApp/Pods-campusApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
